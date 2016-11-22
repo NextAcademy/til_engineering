@@ -21,10 +21,22 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: nextacademy
 
 # Build settings
+collections:
+  tags:
+    output: true
+    permalink: /tag/:slug/
+defaults:
+  -
+    scope:
+      path: ""
+      type: tags
+    values:
+      layout: posts_by_tag
 markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
