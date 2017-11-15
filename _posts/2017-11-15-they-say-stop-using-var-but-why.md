@@ -111,6 +111,7 @@ Use `let` or `const`:
 
 
 With that, block-scoped `button` and `size` variables will not be known outside the for-loop, and they will not be hoisted out of the for-loop as well.
+If you're wondering how was this problem solved before ES6 was released, [through Closure](https://codepen.io/lirenyeo/pen/OOjZNo).
 
 ## Conclusion
 >`let`/`const` is the new `var`
