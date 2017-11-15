@@ -94,7 +94,7 @@ Take a look at the following function. It is supposed to loop 4 times to create 
 
 Due to function-scoping, all `var` variables inside the for-loop get hoisted to the top as well:
 
-<p data-height="405" data-theme-id="0" data-slug-hash="QOMQoM" data-default-tab="js,result" data-user="lirenyeo" data-embed-version="2" data-pen-title="var Function Scoping" class="codepen">See the Pen <a href="https://codepen.io/lirenyeo/pen/QOMQoM/">var Function Scoping</a> by Liren (<a href="https://codepen.io/lirenyeo">@lirenyeo</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<p data-height="400" data-theme-id="0" data-slug-hash="QOMQoM" data-default-tab="js,result" data-user="lirenyeo" data-embed-version="2" data-pen-title="var Function Scoping" class="codepen">See the Pen <a href="https://codepen.io/lirenyeo/pen/QOMQoM/">var Function Scoping</a> by Liren (<a href="https://codepen.io/lirenyeo">@lirenyeo</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script src="https://production-assets.codepen.io/assets/embed/ei.js"> </script>
 
 
@@ -106,7 +106,7 @@ Yep, all button changes font size to 10%!
 #### Solution?
 Use `let` or `const`:
 
-<p data-height="265" data-theme-id="0" data-slug-hash="VrzXKe" data-default-tab="js,result" data-user="lirenyeo" data-embed-version="2" data-pen-title="let Block Scoping" class="codepen">See the Pen <a href="https://codepen.io/lirenyeo/pen/VrzXKe/">let Block Scoping</a> by Liren (<a href="https://codepen.io/lirenyeo">@lirenyeo</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<p data-height="400" data-theme-id="0" data-slug-hash="VrzXKe" data-default-tab="js,result" data-user="lirenyeo" data-embed-version="2" data-pen-title="let Block Scoping" class="codepen">See the Pen <a href="https://codepen.io/lirenyeo/pen/VrzXKe/">let Block Scoping</a> by Liren (<a href="https://codepen.io/lirenyeo">@lirenyeo</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script src="https://production-assets.codepen.io/assets/embed/ei.js"> </script>
 
 
