@@ -69,15 +69,9 @@ var height = "100cm";
 // This year I am 170cm
 ```
 
-So how do we avoid the unpleasant surprise from above examples? Use `let`! Unlike `var`, `let` is [in fact not hoisted](https://dmitripavlutin.com/variables-lifecycle-and-why-let-is-not-hoisted/) (Also depending on how you define ‘hoisting’)<sup>[note]</sup>:
-```js
-let x = 1;
-(function() {
-  console.log(x); //
-})();
-```
+So how do we avoid the unpleasant surprise from above examples? Use `let`! Unlike `var`, `let` is [in fact not hoisted](https://dmitripavlutin.com/variables-lifecycle-and-why-let-is-not-hoisted/) (Also depending on how you define ‘hoisting’)*
 
-<sup>[note]</sup>Hoisting is a made-up concept to describe behavior of JS compiler. Conceptually you can still say `let` gets hoisted, but the “hoisted” `let` variables are just declared, not initialized.
+>Hoisting is a made-up concept to describe behavior of JS compiler. Conceptually you can still say `let` gets hoisted, but the “hoisted” `let` variables are just declared, not initialized.
 Therefore compiler will not silently give us an unexpected `undefined`, but throws error at us instead.
 [Github user getify explains it perfectly well here](https://github.com/getify/You-Dont-Know-JS/issues/767#issuecomment-227946671)
 
