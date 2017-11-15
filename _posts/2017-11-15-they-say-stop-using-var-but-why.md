@@ -99,26 +99,10 @@ const someFunction = () => {
 Take a look at the following function. It is supposed to loop 4 times to create 4 different buttons that can change your font size to 100%, 200%, 300% and 400% respectively.
 
 Due to function-scoping, all `var` variables inside the for-loop get hoisted to the top as well:
-```js
-function createButtons() {
-  // var number, button, size;
-  // They all get hoisted up here!
-  for (var number = 1; number < 5; number++) {
-    var button = document.createElement("button");
-    var size = (number * 100) + "%";
-    button.innerText = size;
-    document.body.appendChild(button);
 
-      button.addEventListener("click", function() {
-      document.body.style.fontSize = size;
-      })
-  }
-  //var size = "10%";
-}
+<p data-height="405" data-theme-id="0" data-slug-hash="QOMQoM" data-default-tab="js,result" data-user="lirenyeo" data-embed-version="2" data-pen-title="var Function Scoping" class="codepen">See the Pen <a href="https://codepen.io/lirenyeo/pen/QOMQoM/">var Function Scoping</a> by Liren (<a href="https://codepen.io/lirenyeo">@lirenyeo</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script src="https://production-assets.codepen.io/assets/embed/ei.js"> </script>
 
-document.write('The brown fox jumped over the lazy dog <br>')
-createButtons()
-```
 
 As the result, all `number`, `button` and `size` variables are always pointing to the same reference! Every button becomes 400%!
 
@@ -127,12 +111,11 @@ Yep, all button changes font size to 10%!
 
 #### Solution?
 Use `let` or `const`:
-```js
-for (…) {
-  let button = ...
-  let size = ...
-}
-```
+
+<p data-height="265" data-theme-id="0" data-slug-hash="VrzXKe" data-default-tab="js,result" data-user="lirenyeo" data-embed-version="2" data-pen-title="let Block Scoping" class="codepen">See the Pen <a href="https://codepen.io/lirenyeo/pen/VrzXKe/">let Block Scoping</a> by Liren (<a href="https://codepen.io/lirenyeo">@lirenyeo</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script src="https://production-assets.codepen.io/assets/embed/ei.js"> </script>
+
+
 With that, block-scoped `button` and `size` variables will not be known outside the for-loop, and they will not be hoisted out of the for-loop as well.
 
 ## Conclusion
@@ -140,7 +123,3 @@ With that, block-scoped `button` and `size` variables will not be known outside 
 
 Function scoping along with hoisting properties can cause unpredictable behavior in our code.
 Always use `const` if possible, consider `let` if variable reassignment is required.
-
-
-<p data-height="405" data-theme-id="0" data-slug-hash="QOMQoM" data-default-tab="js,result" data-user="lirenyeo" data-embed-version="2" data-pen-title="var Function Scoping" class="codepen">See the Pen <a href="https://codepen.io/lirenyeo/pen/QOMQoM/">var Function Scoping</a> by Liren (<a href="https://codepen.io/lirenyeo">@lirenyeo</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script src="https://production-assets.codepen.io/assets/embed/ei.js"> </script>
