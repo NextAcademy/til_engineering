@@ -42,7 +42,7 @@ The goal of planning is to **lay the underlying intent for the page** you're des
 >
 
 ## **Design**
-After planning, it's **time to start designing** (do not code anything yet). At this point, your goal is to build the page flow using wireframes, then conceptualizing it using a hi-fidelity mock-up. Think of this step as creating a blueprint for your page.
+After planning, it's time to  **start designing** (do not code anything yet). At this point, your goal is to build the page flow using wireframes, then conceptualizing it using a hi-fidelity mock-up. Think of this step as creating a blueprint for your page.
 >
   **Actions:**
   1. Wireframing:
@@ -60,7 +60,7 @@ After planning, it's **time to start designing** (do not code anything yet). At 
 
 
 ## **Development**
-Once you've gotten your design blueprint sorted out and approved. It's time to start coding the site. At this point, your design is somewhat fixed and you can focus on coding - there should be minimal changes to the design flow.
+Once you've gotten your design blueprint. It's time to **start coding** the site. At this point, your design is fixed and you've got a good gameplan, therefore you may focus fully on coding.
 
 >
   **Actions:**
@@ -71,15 +71,21 @@ Once you've gotten your design blueprint sorted out and approved. It's time to s
   2. Write CSS: 
   + Depending on how you organize your CSS (SMACSS, OOCSS, BEM, etc) you'll want to have a systemized way of writing your css.
   3. Write Javascript:
-  + Some designers write the Javascript before any styling, and some after. IMO this is up to personal preference, choose whichever makes more sense to you.
+  + Some designers write the Javascript before any styling, and some after. IMO this is up to personal preference, choose whichever makes more sense to your work.
   4. Test and verify functionality
-
+  + Once you're done, verify that the page is working as intended, this means checking for mobile responsiveness (phone & tablets), checking URLs, re-read copy for typos.
 >
 
 ### **Launch**
-- Final polish
-- Push to live
-- Test
-- Browserstack
+You've completed the page, it's time to launch the page!
+
+>
+  **Actions:**
+  1. Final polish
+  2. Push to live
+  3. Test live using BrowserStack
+>
+
+***
 >
 
