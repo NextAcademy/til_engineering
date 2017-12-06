@@ -4,7 +4,7 @@ title: "Web Design Workflow Basics"
 author: "Er Whey"
 date: 2017-11-27 11:34:00 +0800
 tags: [design, web]
-preview: https://unsplash.it/1000/1000
+preview: https://image.freepik.com/free-vector/office-work-flat-illustration-design-job-corporate-career-workflow-design_1223-217.jpg
 ---
 
 Your need to build a landing page, or the user interface for a web app from scratch, what do you do?

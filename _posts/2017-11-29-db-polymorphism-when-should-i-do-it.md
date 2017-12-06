@@ -4,7 +4,7 @@ title: "DB Polymorphism: When Should I do it?"
 author: "Ming Xiang Chan"
 date: 2017-11-28 10:06:11 +0800
 tags: [postgresql, database]
-preview: https://unsplash.it/300/100
+preview: http://www.autanact.com/wp-content/uploads/2016/11/fme_formats.png
 ---
 
 Polymorphism is the sharing of a common interface between different domains of data. We encounter it all the time in programming, some simple examples:

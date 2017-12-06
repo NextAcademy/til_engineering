@@ -4,7 +4,7 @@ title: "They say stop using var. But why?"
 author: "Liren Yeo"
 date: 2017-11-15 10:20:15 +0800
 tags: [javascript, es6]
-preview: http://cactusthemes.com/blog/wp-content/uploads/2017/10/es6-var-let-and-const-explained-940x588.jpg
+preview: http://webtinkerer.io/content/images/2017/06/es6-in-depth-the-const-keyword.jpg
 ---
 
 [ES6 or EcmaScript 6 or EcmaScript 2015](https://codeburst.io/javascript-wtf-is-es6-es8-es-2017-ecmascript-dca859e4821c) are the same thing. It is a significant update to JavaScript with many useful feature. Among the notable ones include keywords `const` and `let`.

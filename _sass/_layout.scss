@@ -88,8 +88,8 @@
 
 /* Home - Post Preview */
 .preview-panel {
-    padding: 1rem;
-    margin-bottom: 1.5em;
+    padding: 1.2rem;
+    margin: 0 .5em 1.5em;
     box-sizing: border-box;
     border: 1px solid $grey-color-light;
 
@@ -104,5 +104,10 @@
             margin-left: 0;
             margin-right: .3em;
         }
+    }
+
+    .preview-img {
+      height: 250px;
+      width: 270px;
     }
 }
