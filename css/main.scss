@@ -53,4 +53,6 @@
 
 .col-33 {
   width: 33%;
+  @media (max-width: 888px) { width: 50% }
+  @media (max-width: 666px) { width: 100% }
 }

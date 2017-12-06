@@ -107,7 +107,13 @@
     }
 
     .preview-img {
-      height: 250px;
-      width: 270px;
+        display: block;
+        padding-bottom: .5em;
+        img {
+            display: block;
+            margin: auto;
+            height: 250px;
+            width: 270px;
+        }
     }
 }
