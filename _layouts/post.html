@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-info">
+      {{ page.author }} &nbsp;&#8226;&nbsp; <em>{{ page.date | date: '%B %d, %Y' }}</em>
+      <div class="post-info-tags">
+        {% for tag in page.tags %}
+          <span class="tag-badge">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  <div class="post-nav">
+    {% if page.next.url %}
+      <a class="nav-item" href="{{ page.next.url | prepend: site.baseurl }}">&laquo; Prev</a>
+    {% endif %}
+    {% if page.previous.url %}
+      <a class="nav-item" href="{{ page.previous.url | prepend: site.baseurl }}">Next &raquo;</a>
+    {% endif %}
+  </div>
+</div>

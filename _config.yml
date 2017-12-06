@@ -1,0 +1,14 @@
+# Site settings
+title: Mind Blowing Blog
+email: hello@nextacademy
+description: > # this means to ignore newlines until "baseurl:"
+  We share about the things we have learnt n NEXT Academy
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.nextacademy.com" # the base hostname & protocol for your site
+github_username: nextacademy
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
