@@ -3,8 +3,7 @@ title: NEXT Engineering
 email: hello@nextacademy
 description: > # this means to ignore newlines until "baseurl:"
   We share about the things we have learnt n NEXT Academy
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.nextacademy.com" # the base hostname & protocol for your site
+baseurl: ""
 facebook_url: "https://www.facebook.com/getschooledbynextacademy"
 instagram_url: "https://www.instagram.com/nextacademy_"
 google_plus_url: "https://plus.google.com/+Nextacademy-get-to-the-next-level"
