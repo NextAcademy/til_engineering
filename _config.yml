@@ -1,5 +1,5 @@
 # Site settings
-title: Mind Blowing Blog
+title: NEXT Engineering
 email: hello@nextacademy
 description: > # this means to ignore newlines until "baseurl:"
   We share about the things we have learnt n NEXT Academy
@@ -11,4 +11,11 @@ github_username: nextacademy
 markdown: kramdown
 permalink: pretty
 
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
+exclude:
+  - 'config.ru'
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'vendor'
+
+plugins:
+  - jekyll-seo-tag

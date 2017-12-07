@@ -19,6 +19,8 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-sass-converter (1.5.1)
       sass (~> 3.4)
+    jekyll-seo-tag (2.1.0)
+      jekyll (~> 3.3)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
     kramdown (1.16.2)
@@ -54,6 +56,7 @@ PLATFORMS
 DEPENDENCIES
   bundler
   jekyll
+  jekyll-seo-tag
   rack-jekyll
 
 BUNDLED WITH

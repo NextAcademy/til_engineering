@@ -1,11 +1,34 @@
 <header class="site-header">
   <!-- <a class="site-title" href="{{ site.baseurl }}/"><img src="https://unsplash.it/500/150"></a> -->
+<!--   <img src="https://www.nextacademy.com/img/nav-logo-black.png" height="100">
+  <br>
+  <br>
 
   <nav class="navbar">
     <ul>
       <li class="nav-item"><a href="{{ site.baseurl }}/">Home</a></li>
       <li class="nav-item"><a href="{{ site.baseurl }}/about/">About</a></li>
     </ul>
+  </nav> -->
+
+  <nav id="navbar">
+    <div class="nav-container">
+      <a id="nav-brand" href="{{ site.baseurl }}/">
+        <img src="https://www.nextacademy.com/img/nav-logo-white.svg">
+        <!-- <img src="https://www.nextacademy.com/img/nav-logo-black.png"> -->
+        <span class="hidden-xs">Engineering</span>
+      </a>
+
+      <div id="user-nav">
+          <a href="https://www.nextacademy.com">
+            NEXT Academy
+            <svg fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/>
+                <path d="M0-.25h24v24H0z" fill="none"/>
+            </svg>
+          </a>
+      </div>
+    </div>
   </nav>
 
 </header>
