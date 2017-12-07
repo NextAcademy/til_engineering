@@ -3,10 +3,16 @@
 ### Installation
 
     bundle install
+    
+
+### Development
+
+Run Jekyll:
+
+    bundle exec jekyll serve
+
 
 ### Write a Blog Post
-
-*IMPORTANT* Check out to a new branch and raise a PR when you're done.
 
 1. Create a new file in `_posts` folder.
 
@@ -26,17 +32,11 @@
     ---
     ```
 
-4. Every post **must** have a related preview image. Make sure the image is at least _270x250_, and close to 1:1 aspect ratio (squarish image).
+4. Every post **_must_** have a related preview image. Make sure the image is at least _270x250_, and close to 1:1 aspect ratio (squarish image).
 
 5. Other resources:
     - Jekyll Docs on [Writing Posts](https://jekyllrb.com/docs/posts/)
     - Jekyll Docs on [Syntax Highlighting](https://jekyllrb.com/docs/posts/#highlighting-code-snippets)
-
-### Development
-
-Run Jekyll:
-
-    bundle exec jekyll serve
 
 ## License
 
