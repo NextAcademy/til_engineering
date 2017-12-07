@@ -1,0 +1,7 @@
+/* Utils */
+
+.hidden-xs {
+  @media (max-width: 444px) {
+    display: none;
+  }
+}

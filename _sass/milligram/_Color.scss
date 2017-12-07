@@ -11,10 +11,7 @@
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 $color-initial: #fff !default;
-// $color-primary: #9b4dca !default;
 $color-primary: #009999 !default;
-// $color-secondary: #606c76 !default;
-// $color-secondary: #3d556b !default;
 $color-secondary: #073642 !default;
 $color-tertiary: #f4f5f6 !default;
 $color-quaternary: #d1d1d1 !default;
@@ -22,6 +19,7 @@ $color-quinary: #e1e1e1 !default;
 
 $color-blue: #cae5ea !default;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$color-darkgray: #383838 !default;
+$color-gray: #828282;
+$color-lightgray: #e8e8e8;
+

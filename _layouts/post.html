@@ -20,10 +20,10 @@ layout: default
 
   <div class="post-nav">
     {% if page.next.url %}
-      <a class="nav-item" href="{{ page.next.url | prepend: site.baseurl }}">&laquo; Prev</a>
+      <a href="{{ page.next.url | prepend: site.baseurl }}">&laquo; Prev&nbsp;</a>
     {% endif %}
     {% if page.previous.url %}
-      <a class="nav-item" href="{{ page.previous.url | prepend: site.baseurl }}">Next &raquo;</a>
+      <a href="{{ page.previous.url | prepend: site.baseurl }}">&nbsp;Next &raquo;</a>
     {% endif %}
   </div>
 </div>

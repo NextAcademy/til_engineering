@@ -1,0 +1,38 @@
+/**
+ * Post Preview (Homepage)
+ */
+
+.preview-panel {
+  width: 33%;
+  @media (max-width: 888px) { width: 50% }
+  @media (max-width: 666px) { width: 100% }
+
+  padding: 1.2rem;
+  margin: 0 .5em 1.5em;
+  box-sizing: border-box;
+  border: 1px solid $color-lightgray;
+
+  .preview-author {
+    color: $color-gray;
+  }
+
+  .preview-tags {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    span {
+      margin-left: 0;
+      margin-right: .3em;
+    }
+  }
+
+  .preview-img {
+    display: block;
+    padding-bottom: .5em;
+    img {
+      display: block;
+      margin: auto;
+      height: 250px;
+      width: 270px;
+    }
+  }
+}

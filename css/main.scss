@@ -5,9 +5,11 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "reset",
-        "milligram/milligram",
-        "syntax",
-        "base",
-        "layout"
+        "reset", // Normalize
+        "milligram/milligram", // Default theme
+        "syntax", // Code block syntax highlighting
+        "utils", // Utilities
+        "layout", // Page layout
+        "post", // Blog post
+        "preview" // Post preview
 ;
