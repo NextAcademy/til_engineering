@@ -3,10 +3,6 @@
  */
 
 .preview-panel {
-  width: 33%;
-  @media (max-width: 888px) { width: 50% }
-  @media (max-width: 666px) { width: 100% }
-
   padding: 1.2rem;
   margin: 0 .5em 1.5em;
   box-sizing: border-box;
