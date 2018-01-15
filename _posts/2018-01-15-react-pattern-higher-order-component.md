@@ -4,7 +4,7 @@ title: "React Pattern: Higher Order Component"
 author: "Liren"
 date: 2018-01-15 00:00:00 +0800
 tags: [react, javascript]
-preview: https://reactjs.org/logo-og.png
+preview: https://cdn-images-1.medium.com/max/1600/1*g6s1lvpfArJGorALkKNhvw.png
 ---
 
 #### Higher order what?
