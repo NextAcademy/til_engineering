@@ -2,7 +2,7 @@
 layout: post
 title: "React Pattern: Higher Order Component"
 author: "Liren"
-date: 2017-01-15 00:00:00 +0800
+date: 2018-01-15 00:00:00 +0800
 tags: [react, javascript]
 preview: https://i.ytimg.com/vi/Yfr-gUAfyw8/maxresdefault.jpg
 ---
