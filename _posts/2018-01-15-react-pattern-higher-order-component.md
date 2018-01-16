@@ -8,7 +8,7 @@ preview: https://i.imgur.com/2qHttje.jpg
 ---
 
 #### Higher order what?
-Higher Order Component (HOC) is simply a function that takes a component and returns a new powered-up component. It is not part the React library, it's simply a pattern to write React.
+Higher Order Component (HOC) is simply a function that takes a component and returns a new powered-up component. It is not part of the React library, it's simply a pattern to write React.
 
 #### Okaaay.. what for? (TLDR)
 Reusability!
@@ -21,11 +21,11 @@ Smart components make API requests, connect to Redux store, do graphQL queries, 
 
 Sometimes you have multiple versions of dumb components that need data from the same smart component, what do you do?
 
-Perhaps you can just make a few identical copies of smart components and become no so DRY.
+Perhaps you can just make a few identical copies of smart components and ~~Don't~~ Repeat Yourself.
 
 Perhaps you can let the smart component passes all the data to Redux store and the dumb ones can get it from there, and suddenly the dumb components are not so dumb anymore - they can talk to The Store.
 
-Or perhaps you should also consider HOC! or [*spoiler*] use Render Props, that's the blog post for next month ;)
+Or perhaps you should also consider HOC! or **[spoiler]** *Render Props*, that's the blog post for next month ;)
 
 #### Example please!
 
